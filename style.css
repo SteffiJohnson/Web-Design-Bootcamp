@@ -1,0 +1,179 @@
+body {
+    color: #ffa9a9;
+    margin: 3 rem 0 0 0;
+    font-family:"Source Sans Pro";
+    font-size: 1.25rem;
+    background-image: url('images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.para{
+    color: #fff68e;
+    font-weight: 800;
+}
+
+.title{
+    text-align: center;
+    color: white;
+}
+
+.t{
+    height: 91.2px;
+}
+  
+.t4{
+    color: white;
+}
+
+.t2{
+    color: #ff7dc4;
+    text-align: center;
+}
+
+h2{
+    color: #df2200;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+.logo{
+    color: hsl(96, 96%, 82%);
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: ;
+    background-color: #252b2f;
+    z-index: 1;
+    height: 50px;
+}
+
+.nav {
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.list {
+    display: flex;
+}
+
+.item {
+    margin-left: 1.4rem;
+}
+  
+p {
+    color: teal;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align:justify;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+
+img{
+    width: 429px;
+    height: 230px;
+}
+
+.button {
+    background-color: #d2d183;
+    border: none;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background-color: #f798fa;
+    transition: 0s;
+  }
+
+.blog{
+    padding: 4rem 0;
+}
+
+.box{
+    padding: 0 20rem;
+}
+
+.blog-content{
+    margin: 3rem 2rem 2rem -2rem;
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    grid-gap: 70px 90px;
+}
+
+.blog-item{
+    width: 429px;
+    height: 560px;
+    background-color: #e7ffe8;
+    border-radius: 5px; 
+    transition: 1.3s;
+}
+.blog-item:hover{
+    transform: scale(1.1);
+}
+ 
+.blog-text{
+    margin: 0rem 0;
+    padding: 0 1rem;
+}
+
+.blog-text span{
+    font-weight: 300;
+    display: block;
+    padding-bottom: 0.5rem;
+}
+
+.blog-text h2{
+    padding: 1rem 0;
+    font-size: 1.65rem;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.blog-text p{
+    font-weight: 300;
+    font-size: 1.1rem;
+    padding-bottom: 1.2rem;
+}
+
+.blog-text a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    display: inline-block;
+    background: var(--dark);
+    color: #df2200;
+   
+    transition: all 0.5s ease;
+}
+
